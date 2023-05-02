@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * put2 - Prints every other character of a string
+ * puts2 - Prints every other character of a string
  * @str: The string to be used
  * Return: void
  */
 
 void puts2(char *str)
 {
-	int i; 
+	int i;
 	int j = 0;
 
 	while (str[j] != '\0')
