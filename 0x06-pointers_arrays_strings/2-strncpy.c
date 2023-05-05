@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - function that copies a string
+ * _strncpy- function that copies a string
  * @dest: first string
  * @src: second string
  * @n: byte used
@@ -15,7 +15,7 @@ char *_strncpy(char *dest, char *src, int n)
 	te = 0;
 	while (te < n && src[te] != '\0')
 	{
-		dest[te] = sr[te];
+		dest[te] = src[te];
 		te++;
 	}
 	while (te < n)
