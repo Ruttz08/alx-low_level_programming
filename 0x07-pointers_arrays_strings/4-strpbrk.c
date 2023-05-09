@@ -1,11 +1,10 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * _strpbr - Function that searches a string
- * @s: input
- * @accept: Byte string
- * Return: 0 (Success)
+ * _strpbrk - Function that searches a string
+ * @s: Input
+ * @accept: Byte input
  */
 
 char *_strpbrk(char *s, char *accept)
@@ -14,7 +13,7 @@ char *_strpbrk(char *s, char *accept)
 
 	for (k = 0; s[k] != '\0'; k++)
 	{
-		for (n = 0; accept[n] != '\0'; n++)
+		for (n = 0; accept[k] != '\0'; k++)
 		{
 			if (s[k] == accept[n])
 				return (s + k);
