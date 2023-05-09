@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * _strpbrk- Function that searches a string
+ * _strpbrk- Entry point
  * @s: Input
- * @accept: Byte input
+ * @accept: input
  * Return: 0 (Success)
  */
 
