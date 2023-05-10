@@ -14,7 +14,7 @@ char *_strpbrk(char *s, char *accept)
 
 	for (k = 0; s[k] != '\0'; k++)
 	{
-		for (n = 0; accept[k] != '\0'; k++)
+		for (n = 0; accept[n] != '\0'; n++)
 		{
 			if (s[k] == accept[n])
 				return (s + k);
