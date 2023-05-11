@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /**
  * _strlen_recursion - Returns the length of a string.
@@ -43,5 +43,5 @@ int is_palindrome(char *s)
 {
 	if (*s == '\0')
 		return (0);
-	return (comparator(s, 0, _strlen_recusion(s) - 1));
+	return (comparator(s, 0, _strlen_recursion(s) - 1));
 }
