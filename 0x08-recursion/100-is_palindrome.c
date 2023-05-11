@@ -10,13 +10,13 @@ int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
 		return (0);
-	else 
+	else
 		return (1 + _strlen_recursion(s + 1));
 }
 
 /**
  * comparator - Comparator each character of the string.
- * @s: string 
+ * @s: string
  * @l: smallest iterator
  * @v: biggest iterator.
  * Return: .
