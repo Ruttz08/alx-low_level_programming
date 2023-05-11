@@ -27,7 +27,7 @@ int check_prime(int n, int k)
 		return (0);
 	else if (n % k == 0 && k > 1)
 		return (0);
-	else ((n / k) < k)
+	else if((n / k) < k)
 		return (1);
 	return (check_prime(n, k + 1));
 }
