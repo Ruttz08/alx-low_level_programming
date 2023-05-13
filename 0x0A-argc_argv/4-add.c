@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	int k;
 	unsigned int w, sum = 0;
 	char *e;
-	
+
 	if (argc > 1)
 	{
 		for (k = 1; k < argc; k++)
@@ -40,4 +40,4 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	}
 	return (0);
-}        	
+}	
