@@ -26,12 +26,12 @@ int main(int argc, char *argv[])
 			{
 				if (e[w] < 48 || e[w] > 57)
 				{
-				printf("Error\n");
-				return (1);
+					printf("Error\n");
+					return (1);
 				}
 			}
-		sum += atoi(e);
-		e++;
+			sum += atoi(e);
+			e++;
 		}
 		printf("%d\n", sum);
 	}
@@ -40,4 +40,4 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	}
 	return (0);
-}	
+}
