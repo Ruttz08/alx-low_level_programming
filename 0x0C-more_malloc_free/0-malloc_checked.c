@@ -2,18 +2,18 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - allocates memoty using malloc
+ * malloc_checked - allocates memory using malloc
  * @b: function int parameter
  * Return: void
  */
 
 void *malloc_checked(unsigned int b)
 {
-        void *c = malloc(b);
+        void *y = malloc(b);
 
-        if (c == NULL)
+        if (y == NULL)
         {
                 exit(98);
         }
-        return (c);
+        return (y);
 }
