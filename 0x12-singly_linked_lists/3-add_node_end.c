@@ -24,22 +24,18 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	for (x = 0; str[x]; x++)
 		;
-	
-		n_node->len = x;
-		n_node->next = NULL;
-		exist_node = *head;
-
-		if  (exist_node == NULL)
-		{
-			*head = n_node;
-		}
-		else
-		{
-			while (exist_node->next != NULL)
-				exist_node = exist_node->next;
-			exist_node->next = n_node;
-		}
-
-		return (*head);
-	
+	n_node->len = x;
+	n_node->next = NULL;
+	exist_node = *head;
+	if (exist_node == NULL)
+	{
+		*head = n_node;
+	}
+	else
+	{
+		while (exist_node->next != NULL)
+			exist_node = exist_node->next;
+		exist_node->next = n_node;
+	}
+	return (*head);
 }
