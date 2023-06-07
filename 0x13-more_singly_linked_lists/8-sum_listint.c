@@ -1,5 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
+#include <stddef.h>
+#include <stdlib.h>
 
 /**
  * sum_listint - returns the sum of all the data (n)
@@ -16,7 +18,7 @@ int sum_listint(listint_t *head)
 	while (tmp)
 	{
 		sum += tmp->n;
-		tmp = tmp->next
+		tmp = tmp->next;
 	}
 
 	return (sum);
